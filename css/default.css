@@ -9,13 +9,13 @@ body{
     flex-direction: column;
 }
 .code-wrapper{
-   flex:0.3;
-   height: 30%;
+   flex:1;
+   height: 50%;
    padding: 10px;
 }
 .preview-wrapper{
-    flex: 0.7;
-    height: 70%;
+    flex: 1;
+    height: 50%;
 }
 #code{
     overflow: hidden;
@@ -41,15 +41,3 @@ body{
 .action>button:focus{
     outline: none;
 }
-
-ul {
-    display: table;
-    list-style: none;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 0;
-}
- ul li {
-    display: inline-block;
-    float: left;
- }
